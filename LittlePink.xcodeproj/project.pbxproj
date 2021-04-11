@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8C6F789FED3D1900CE694237 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3593EFF3E7752C48544BEC9D /* Pods_LittlePink.framework */; };
 		B2124ED52611052D009132F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2124ED42611052D009132F4 /* AppDelegate.swift */; };
 		B2124ED72611052D009132F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2124ED62611052D009132F4 /* SceneDelegate.swift */; };
-		B2124ED92611052D009132F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2124ED82611052D009132F4 /* ViewController.swift */; };
 		B2124EDC2611052D009132F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2124EDA2611052D009132F4 /* Main.storyboard */; };
 		B2124EDE2611052E009132F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2124EDD2611052E009132F4 /* Assets.xcassets */; };
 		B2124EE12611052E009132F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2124EDF2611052E009132F4 /* LaunchScreen.storyboard */; };
+		B2165C9A2620E4480021D635 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2165C992620E4480021D635 /* HomeViewController.swift */; };
+		B2165C9D2620F57C0021D635 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2165C9C2620F57C0021D635 /* FollowVC.swift */; };
+		B2165CA02620F58E0021D635 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2165C9F2620F58E0021D635 /* DiscoverVC.swift */; };
+		B2165CA32620F5B50021D635 /* NearbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2165CA22620F5B50021D635 /* NearbyVC.swift */; };
+		B2165CA62620F7C60021D635 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2165CA52620F7C60021D635 /* Constants.swift */; };
+		B2C9A7522622F491006FD746 /* WaterfallCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9A7512622F491006FD746 /* WaterfallCVC.swift */; };
+		B2C9A75526231C62006FD746 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9A75426231C62006FD746 /* WaterfallCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +29,17 @@
 		B2124ED12611052D009132F4 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2124ED42611052D009132F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2124ED62611052D009132F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2124ED82611052D009132F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2124EDB2611052D009132F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2124EDD2611052E009132F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2124EE02611052E009132F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2124EE22611052E009132F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2165C992620E4480021D635 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B2165C9C2620F57C0021D635 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		B2165C9F2620F58E0021D635 /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		B2165CA22620F5B50021D635 /* NearbyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyVC.swift; sourceTree = "<group>"; };
+		B2165CA52620F7C60021D635 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B2C9A7512622F491006FD746 /* WaterfallCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCVC.swift; sourceTree = "<group>"; };
+		B2C9A75426231C62006FD746 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +85,27 @@
 			children = (
 				B2124ED42611052D009132F4 /* AppDelegate.swift */,
 				B2124ED62611052D009132F4 /* SceneDelegate.swift */,
-				B2124ED82611052D009132F4 /* ViewController.swift */,
 				B2124EDA2611052D009132F4 /* Main.storyboard */,
+				B2C9A7512622F491006FD746 /* WaterfallCVC.swift */,
+				B2C9A75426231C62006FD746 /* WaterfallCell.swift */,
+				B2165CA82620F9B10021D635 /* Home */,
+				B2165CA52620F7C60021D635 /* Constants.swift */,
 				B2124EDD2611052E009132F4 /* Assets.xcassets */,
 				B2124EDF2611052E009132F4 /* LaunchScreen.storyboard */,
 				B2124EE22611052E009132F4 /* Info.plist */,
 			);
 			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		B2165CA82620F9B10021D635 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B2165C9C2620F57C0021D635 /* FollowVC.swift */,
+				B2165C9F2620F58E0021D635 /* DiscoverVC.swift */,
+				B2165CA22620F5B50021D635 /* NearbyVC.swift */,
+				B2165C992620E4480021D635 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		CFDD614D4DE296F48398CBC9 /* Pods */ = {
@@ -88,7 +114,6 @@
 				58AF9E0D27CE7A5A6C38626E /* Pods-LittlePink.debug.xcconfig */,
 				8254C163B88DF6BE7F8192FF /* Pods-LittlePink.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,9 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2124ED92611052D009132F4 /* ViewController.swift in Sources */,
 				B2124ED52611052D009132F4 /* AppDelegate.swift in Sources */,
+				B2165CA02620F58E0021D635 /* DiscoverVC.swift in Sources */,
+				B2165C9D2620F57C0021D635 /* FollowVC.swift in Sources */,
+				B2C9A75526231C62006FD746 /* WaterfallCell.swift in Sources */,
+				B2C9A7522622F491006FD746 /* WaterfallCVC.swift in Sources */,
 				B2124ED72611052D009132F4 /* SceneDelegate.swift in Sources */,
+				B2165CA62620F7C60021D635 /* Constants.swift in Sources */,
+				B2165C9A2620E4480021D635 /* HomeViewController.swift in Sources */,
+				B2165CA32620F5B50021D635 /* NearbyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
