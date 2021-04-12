@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "15m-gD-RUR"; */
+"15m-gD-RUR.title" = "主页";
+
+/* Class = "UITabBarItem"; title = "Me"; ObjectID = "37u-s7-6Hf"; */
+"37u-s7-6Hf.title" = "我";
+
+/* Class = "UITabBarItem"; title = "Post"; ObjectID = "NL8-Sz-pak"; */
+"NL8-Sz-pak.title" = "发布";
+
+/* Class = "UITabBarItem"; title = "Shopping"; ObjectID = "a20-X1-WaD"; */
+"a20-X1-WaD.title" = "商城";
+
+/* Class = "UITabBarItem"; title = "Message"; ObjectID = "w1K-4N-pum"; */
+"w1K-4N-pum.title" = "消息";

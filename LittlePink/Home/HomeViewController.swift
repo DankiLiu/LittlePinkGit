@@ -18,7 +18,7 @@ class HomeViewController: ButtonBarPagerTabStripViewController {
         
         settings.style.buttonBarItemBackgroundColor = .clear
         settings.style.buttonBarItemTitleColor = .label
-        settings.style.buttonBarItemFont = .systemFont(ofSize: 15)
+        settings.style.buttonBarItemFont = .systemFont(ofSize: 16)
         settings.style.buttonBarItemLeftRightMargin = 0
         
         super.viewDidLoad()
@@ -48,6 +48,6 @@ class HomeViewController: ButtonBarPagerTabStripViewController {
         let discoverVC = storyboard!.instantiateViewController(identifier: kDiscoverVCID)
         let nearbyVC = storyboard!.instantiateViewController(identifier: kNearbyVCID)
         
-        return [followVC, nearbyVC, discoverVC]
+        return [discoverVC, nearbyVC, followVC]
     }
 }
